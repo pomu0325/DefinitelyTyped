@@ -13,4 +13,7 @@ options.expose = true;
 
 $(window).load(()=> {
     $('#joyRideTipContent').joyride(options);
+
+    // allow empty options
+    $('#joyRideTipContent2').joyride({});
 });
